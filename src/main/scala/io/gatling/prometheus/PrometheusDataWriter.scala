@@ -19,7 +19,7 @@ package io.gatling.prometheus
 import java.io.IOException
 
 import io.gatling.commons.util.Clock
-import io.prometheus.client.{ Counter, Histogram, Gauge }
+import io.prometheus.client.{ Counter, Histogram }
 import io.prometheus.client.exporter.HTTPServer
 import io.gatling.core.config.GatlingConfiguration
 import io.gatling.core.stats.message.{ End, Start }
