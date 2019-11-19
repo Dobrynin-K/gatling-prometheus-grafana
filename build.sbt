@@ -1,29 +1,29 @@
 
 
 ThisBuild / scalaVersion := "2.12.7"
-ThisBuild / organization := "com.github.bmaguireibm"
+ThisBuild / organization := "com.github.Dobrynin-K"
 
 ThisBuild / organizationName := "gatling-prometheus-datawriter"
-ThisBuild / organizationHomepage := Some(url("https://github.com/bmaguireibm/gatling-prometheus-datawriter"))
+ThisBuild / organizationHomepage := Some(url("https://github.com/Dobrynin-K/gatling-prometheus-grafana"))
 
 ThisBuild / scmInfo := Some(
     ScmInfo(
-        url("https://github.com/bmaguireibm/gatling-prometheus-datawriter"),
-        "scm:git@github.com/bmaguireibm/gatling-prometheus-datawriter.git"
+        url("https://github.com/Dobrynin-K/gatling-prometheus-grafana"),
+        "scm:git@github.com/Dobrynin-K/gatling-prometheus-grafana.git"
     )
 )
 ThisBuild / developers := List(
     Developer(
-        id    = "bmaguireibm",
-        name  = "Brian Maguire",
-        email = "maguirebrianf@gmail.com",
-        url   = url("https://github.com/bmaguireibm")
+        id    = "Dobrynin-K",
+        name  = "Richard Cox",
+        email = "Richard1Cox@yandex.ua",
+        url   = url("https://github.com/Dobrynin-K")
     )
 )
 
 ThisBuild / description := "Prometheus Plugin for Gatling"
 ThisBuild / licenses := List("Apache 2" -> new URL("http://www.apache.org/licenses/LICENSE-2.0.txt"))
-ThisBuild / homepage := Some(url("https://github.com/bmaguireibm/gatling-prometheus-datawriter"))
+ThisBuild / homepage := Some(url("https://github.com/Dobrynin-K/gatling-prometheus-grafana"))
 
 // Remove all additional repository other than Maven Central from POM
 ThisBuild / pomIncludeRepository := { _ => false }
